@@ -6,6 +6,3 @@ def turn_count(board)
   end
 end
 
-def current_player(board)
-  turn_count.odd ? return "X" : return "0"
-end

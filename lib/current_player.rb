@@ -1,12 +1,12 @@
 def turn_count(board)
-  counter = 1
+  counter = 0
   board.each do |position|
     if position == "X" || position == "O"
-      return counter += 1 
+      counter += 1 
     end
   end
 end
 
 def current_player(board)
-  !turn_count.odd ? "X" : "0"
+  turn_count.odd? return "X" : return "0"
 end

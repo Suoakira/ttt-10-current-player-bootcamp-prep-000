@@ -12,4 +12,5 @@ def current_player(board)
   !turn_count(board).odd? ? "X" : "O"
 end
 
-#begin had some problems confusing the odd? with the tenrary operator!
+=begin had some problems confusing the odd? with the tenrary operator!
+e

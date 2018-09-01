@@ -9,5 +9,5 @@ def turn_count(board)
 end
 
 def current_player(board)
-  turn_count.odd? "X" : "0"
+  return turn_count.odd ? "X" : "0"
 end

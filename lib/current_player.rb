@@ -13,4 +13,5 @@ def current_player(board)
 end
 
 =begin had some problems confusing the odd? with the tenrary operator!
-e
+=end
+
